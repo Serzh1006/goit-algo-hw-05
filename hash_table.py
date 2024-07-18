@@ -43,8 +43,9 @@ H.insert("apple", 10)
 H.insert("orange", 20)
 H.insert("banana", 30)
 H.insert("rome",25)
-print(H.table)
+
+print(H.get('apple'))
+
 H.delete("apple")
 H.delete("banana")
 H.delete("rome")
-print(H.table)
