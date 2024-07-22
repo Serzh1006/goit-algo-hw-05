@@ -19,7 +19,7 @@ def binary_search(arr, target):
 
 
 list_num = [1.2, 2.5, 3.5, 4.5, 5.2, 6.2, 6.7, 8.5, 9.4, 10.1]
-target = 4
+target = 7
 
 result = binary_search(list_num, target)
 print(result)
