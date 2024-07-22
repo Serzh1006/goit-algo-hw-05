@@ -59,7 +59,7 @@ time_rabin_karp_2 = timeit.timeit(stmt="rabin_karp_search(raw, pattern['new_word
 time_rabin_karp_3 = timeit.timeit(stmt="rabin_karp_search(raw_1, pattern['t_word'])", setup=mysetup, number=10)
 time_rabin_karp_4 = timeit.timeit(stmt="rabin_karp_search(raw_1, pattern['new_word'])", setup=mysetup, number=10)
 
-print(f"\ntime_boyer_moore_1 = {time_rabin_karp_1:.07f} seconds")
-print(f"\ntime_boyer_moore_2 = {time_rabin_karp_2:.07f} seconds")
-print(f"\ntime_boyer_moore_3 = {time_rabin_karp_3:.07f} seconds")
-print(f"\ntime_boyer_moore_4 = {time_rabin_karp_4:.07f} seconds")
+print(f"\ntime_rabin_karp_1 = {time_rabin_karp_1:.07f} seconds")
+print(f"\ntime_rabin_karp_2 = {time_rabin_karp_2:.07f} seconds")
+print(f"\ntime_rabin_karp_3 = {time_rabin_karp_3:.07f} seconds")
+print(f"\ntime_rabin_karp_4 = {time_rabin_karp_4:.07f} seconds")
